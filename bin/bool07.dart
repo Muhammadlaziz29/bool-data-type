@@ -8,4 +8,12 @@
         bool
     */
 
-void main() {}
+    bool func(int a, int b) {
+        return a != b;
+    }
+
+void main() {
+    bool x;
+    x = func(1,1);
+    print(x);
+}
