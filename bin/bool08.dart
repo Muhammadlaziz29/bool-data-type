@@ -13,6 +13,6 @@ bool func(int a) {
 
 void main() {
     bool x;
-    x = func(-7);
+    x = func(12);
     print(x);
 }
